@@ -1,16 +1,20 @@
 body{
-    background-image: url("https://i.pinimg.com/736x/e6/53/71/e653717288dfc243aa73f78d1bdd5e9e.jpg");
+    background-image: url("https://facts.net/wp-content/uploads/2023/09/13-facts-about-alice-disneys-alice-in-wonderland-1694440166.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
-#nexta{
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 20px;
-    height: 20px;
-    border-top: 2px solid black;
-    border-right: 2px solid black;
-    transform: translate(-50%, -50%) rotate(45deg);
+#button1{
+    background-color: rgb(252, 241, 119);
+    height: 40px;
+    width: 40px;
+}
+#info{
+    margin: 0 auto;
+    background-color: rgba(225, 212, 38, 0.418);
+    border: 5px solid black;
+    height: 500px;
+    width: 400px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
 }
