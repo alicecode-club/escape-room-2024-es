@@ -1,0 +1,10 @@
+body{
+    text-align: center;
+    background: url("../images/livingroomimage.webp")
+    
+}
+
+html{
+	background-image: url("../images/livingroomimage.webp");
+	background-size:100vw 100vh;
+}
