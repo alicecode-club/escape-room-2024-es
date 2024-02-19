@@ -1,0 +1,10 @@
+body{
+    text-align: center;
+    background: url("../images/mainRoom.jpg")
+    
+}
+
+html{
+	background-image: url("../images/mainRoom.jpg");
+	background-size:100vw 100vh;
+}
