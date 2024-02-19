@@ -1,0 +1,33 @@
+#img-container {
+    position: relative;
+    display: inline-block;
+}
+
+button {
+    position: absolute;
+    top: 20%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    padding: 10px 15px;
+    color: inherit; /* מרווח הטקסט ייקבע על פי הערך הרגיל שלו */
+    background-color: transparent; /* רקע שקוף */
+    border: none; /* אין גבול */
+    cursor: pointer;
+    width: 200px; /* הגדלת רוחב */
+    height: 100px; /* הגדלת גובה */
+}
+#secondButton {
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    padding: 15px 25px; /* הגדלת padding */
+    color: inherit;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    width: 200px; /* הגדלת רוחב */
+    height: 100px; /* הגדלת גובה */
+}
+
+
