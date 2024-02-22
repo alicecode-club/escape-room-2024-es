@@ -9,25 +9,41 @@ button {
     left: 90%;
     transform: translate(-50%, -50%);
     padding: 10px 15px;
-    color: inherit; /* מרווח הטקסט ייקבע על פי הערך הרגיל שלו */
-    background-color: transparent; /* רקע שקוף */
-    border: none; /* אין גבול */
+    color: inherit;
+    background-color: transparent;
+    border: none;
     cursor: pointer;
-    width: 200px; /* הגדלת רוחב */
-    height: 100px; /* הגדלת גובה */
+    width: 200px;
+    height: 100px;
 }
+
 #secondButton {
     position: absolute;
     top: 70%;
     left: 30%;
     transform: translate(-50%, -50%);
-    padding: 15px 25px; /* הגדלת padding */
+    padding: 15px 25px;
     color: inherit;
     background-color: transparent;
     border: none;
     cursor: pointer;
-    width: 200px; /* הגדלת רוחב */
-    height: 100px; /* הגדלת גובה */
+    width: 200px;
+    height: 100px;
 }
 
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 768px) {
+    button, #secondButton {
+        font-size: 14px;
+        width: 150px;
+        height: 75px;
+    }
+}
 
+@media screen and (max-width: 480px) {
+    button, #secondButton {
+        font-size: 12px;
+        width: 120px;
+        height: 60px;
+    }
+}
