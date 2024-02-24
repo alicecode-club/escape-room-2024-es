@@ -1,8 +1,8 @@
-function inpoo(){
+function inpoc(){
     var div = document.getElementById("info");
     div.style.display = "none";
 }
-function inpoc(){
+function inpoo(){
     var div = document.getElementById("info");
     div.style.display = "block";
 }
@@ -16,9 +16,6 @@ function card(imgSrc) {
     newImg.setAttribute("class", "img");
     document.body.appendChild(newImg);
 }
-function cardc() {
-    var img = document.createElement('img');
-    img.src = 'https://cdn.pixabay.com/photo/2012/04/11/13/34/ten-28256_960_720.png';
-    document.body.appendChild(img);
-    a.setAttribute("class", "img");
+function key(){
+
 }
