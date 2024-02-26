@@ -23,6 +23,29 @@ function showQuestion() {
         }
     }
 }
+function continueToMain() {
+    window.location.href = "main_snow.html";
+}
+function continueToMain() {
+    window.location.href = "main_snow.html";
+}
 
-// You can call the showQuestion function or any other function based on your game logic.
+document.addEventListener("DOMContentLoaded", function () {
+    document.getElementById("playButton").addEventListener("click", function() {
+        document.getElementById("video-container").style.display = "block";
+        document.getElementById("playButton").style.display = "none";
 
+        var video = document.querySelector("#video-container iframe");
+
+        video.addEventListener("ended", function() {
+            window.location.href = "main_snow.html";
+        });
+    });
+});
+function playVideo() {
+    var videoContainer = document.getElementById('video-container');
+    var videoFrame = document.getElementById('videoFrame');
+    
+    videoFrame.src += "?autoplay=1"; // נוסיף את פרמטר האוטומטי פליי
+    videoContainer.style.display = 'block';
+}
