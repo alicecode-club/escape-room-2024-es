@@ -15,6 +15,7 @@ function card(imgSrc) {
     newImg.src = imgSrc;
     newImg.setAttribute("class", "img");
     document.body.appendChild(newImg);
+    button.disabled = true;
 }
 function key(){
 
