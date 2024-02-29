@@ -17,5 +17,8 @@ function card(imgSrc) {
     document.body.appendChild(newImg);
 }
 function key(){
-
+    var newdiv = document.createElement('div');
+    newdiv.setAttribute("class", "diva");
+    document.body.appendChild(newdiv);
 }
+top
