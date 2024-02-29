@@ -89,3 +89,13 @@ body{
     border: none;
     background-color: rgba(225, 212, 38, 0);
 }
+.diva{
+    margin: 0 auto;
+    background-color: rgb(160, 35, 35);
+    border: 5px solid black;
+    height: 250px;
+    width: 400px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
