@@ -1,10 +1,14 @@
 body{
     text-align: center;
-    background: url("../images/rapunzel-opening.jpg")
+    background: url("../images/rapunzel-opening.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
     
 }
-
+/* 
 html{
 	background-image: url("../images/rapunzel-opening.jpg");
 	background-size:100vw 100vh;
-}
+} */
