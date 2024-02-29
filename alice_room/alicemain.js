@@ -19,5 +19,11 @@ function card(imgSrc) {
 function key(){
     var newdiv = document.createElement('div');
     newdiv.setAttribute("class", "diva");
+    var newHeading = document.createElement('h2');
+    newHeading.textContent ="what is the code?";
+    newHeading.setAttribute("id", "h2");
+    var newInput = document.createElement('input');
+    newdiv.appendChild(newHeading);
+    newdiv.appendChild(newInput);
     document.body.appendChild(newdiv);
 }
