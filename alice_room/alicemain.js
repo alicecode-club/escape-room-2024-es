@@ -7,7 +7,7 @@ function inpoo(){
     div.style.display = "block";
 }
 function tunnel() {
-    var a=document.body.style.backgroundImage = "url('https://miro.medium.com/v2/resize:fit:1120/1*5QhRolKeDY9qTKSgIX5WUw.png')";
+    var a=document.body.style.backgroundImage = "url('alice_img/tunnel.png')";
     a.setAttribute("class", "back");
 }
 function card(imgSrc) {
@@ -21,4 +21,3 @@ function key(){
     newdiv.setAttribute("class", "diva");
     document.body.appendChild(newdiv);
 }
-top
