@@ -13,7 +13,7 @@ function tunnel() {
 function card(imgSrc) {
     var newImg = document.createElement('img');
     newImg.src = imgSrc;
-    newImg.setAttribute("class", "img");
+    newImg.setAttribute("class", "imga");
     document.body.appendChild(newImg);
 }
 function key(){
