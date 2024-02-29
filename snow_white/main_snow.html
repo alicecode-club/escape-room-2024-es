@@ -17,46 +17,18 @@
 
         #timerText {
             display: inline-block;
+            font-size: 32px; /* גודל הטקסט של הטיימר */
+            
         }
     </style>
 </head>
 <body>
     <div id="img-container">
         <img id="img1" src="./imgs/H.png" alt="Image">
-        <button onclick="activateSecondButton()"> </button>
-        <button id="secondButton" onclick="showQuestion()" style="display:none;"></button>
+        <button onclick="handleButtonClick('firstButton')"></button>
+        <button id="secondButton" onclick="handleButtonClick('secondButton')" style="display:none;"></button>
         <button id="timer" onclick="startTimer('The Timer')"> <span id="timerText"></span></button>
     </div>
     <script src="snow.js"></script>
-    <script>
-        var timerTextElement = document.getElementById('timerText');
-
-        window.onload = function() {
-            startTimer('The Timer'); // יפעיל את הטיימר עם טעינת הדף
-        };
-
-        function startTimer(timerName) {
-            var secondsLeft = 180; // 3 דקות בשניות
-
-            function updateTimerText() {
-                var minutes = Math.floor(secondsLeft / 60);
-                var seconds = secondsLeft % 60;
-                timerTextElement.textContent = minutes + ':' + (seconds < 10 ? '0' : '') + seconds;
-            }
-
-            updateTimerText(); // עדכן את הטקסט לפי הזמן הנותר הראשוני
-
-            var timerInterval = setInterval(function() {
-                secondsLeft--;
-                updateTimerText(); // עדכן את הטקסט לפי הזמן הנותר המעודכן
-
-                if (secondsLeft <= 0) {
-                    clearInterval(timerInterval);
-                    alert(timerName + ' ended');
-                }
-            }, 1000);
-        }
-    </script>
 </body>
 </html>
-
