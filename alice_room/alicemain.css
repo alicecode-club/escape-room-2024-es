@@ -5,8 +5,8 @@ body{
 }
 #button1{
     background-color: rgba(225, 212, 38, 0.418);
-    height: 40px;
-    width: 40px;
+    height: 8vh;
+    width: 3.5vw;
     position: absolute;
 }
 #info{
@@ -20,17 +20,16 @@ body{
     padding-bottom: 15px;
 }
 #button2{
-    padding: 7px;
     background-color: rgba(225, 212, 38, 0);
-    height: 20px;
-    width: 20px;
+    height: 8vh;
+    width: 2vw;
     border: none;
 }
 #next{
     background-color: rgba(127, 255, 212, 0);
     position: absolute;
-    top: 300px;
-    left: 650px;
+    top: 50%;
+    left: 50%;
     height: 200px;
     width: 200px;
     border: none;
@@ -42,15 +41,6 @@ body{
     top: 50%;
     left: 50%;
     transform-origin: center;
-    animation: spin 5s linear infinite;
-}
-@keyframes spin {
-    0% {
-        transform: translate(-50%, -50%) rotate(0deg);
-    }
-    100% {
-        transform: translate(-50%, -50%) rotate(360deg);
-    }
 }
 #riddlea{
     background-color: rgba(225, 212, 38, 0.418);
@@ -81,7 +71,35 @@ body{
     border: none;
     background-color: rgba(225, 212, 38, 0);
 }
-.img{
+.imga{
     height: 100px;
     width: 60px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    bottom: 10px;;
+}
+#code{
+    top: 440px;
+    left: 830px;
+    position: absolute;
+    width: 140px;
+    height: 50px;
+    border: none;
+    background-color: rgba(225, 212, 38, 0);
+}
+.diva{
+    background-color: rgb(121, 26, 26);
+    border: 5px solid black;
+    height: 250px;
+    width: 400px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    margin-top: 100px;
+    margin-left: 425px;
+    position: absolute;
+}
+#h2{
+    text-align: center;
 }

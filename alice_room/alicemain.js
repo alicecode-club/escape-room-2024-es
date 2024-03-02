@@ -7,15 +7,23 @@ function inpoo(){
     div.style.display = "block";
 }
 function tunnel() {
-    var a=document.body.style.backgroundImage = "url('https://miro.medium.com/v2/resize:fit:1120/1*5QhRolKeDY9qTKSgIX5WUw.png')";
+    var a=document.body.style.backgroundImage = "url('alice_img/tunnel.png')";
     a.setAttribute("class", "back");
 }
 function card(imgSrc) {
     var newImg = document.createElement('img');
     newImg.src = imgSrc;
-    newImg.setAttribute("class", "img");
+    newImg.setAttribute("class", "imga");
     document.body.appendChild(newImg);
 }
 function key(){
-
+    var newdiv = document.createElement('div');
+    newdiv.setAttribute("class", "diva");
+    var newHeading = document.createElement('h2');
+    newHeading.textContent ="what is the code?";
+    newHeading.setAttribute("id", "h2");
+    var newInput = document.createElement('input');
+    newdiv.appendChild(newHeading);
+    newdiv.appendChild(newInput);
+    document.body.appendChild(newdiv);
 }
