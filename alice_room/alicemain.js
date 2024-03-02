@@ -24,7 +24,15 @@ function key(){
     newHeading.setAttribute("id", "h2");
     var newInput = document.createElement('input');
     newInput.setAttribute("id", "input");
+    var newbr = document.createElement('br');
+    var newbr2 = document.createElement('br');
+    var newButton = document.createElement('button');
+    newButton.textContent ="send";
+    newButton.setAttribute("id", "button");
     newdiv.appendChild(newHeading);
     newdiv.appendChild(newInput);
+    newdiv.appendChild(newbr);
+    newdiv.appendChild(newbr2);
+    newdiv.appendChild(newButton);
     document.body.appendChild(newdiv);
 }

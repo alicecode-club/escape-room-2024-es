@@ -1,5 +1,5 @@
 body{
-    background-image: url("https://facts.net/wp-content/uploads/2023/09/13-facts-about-alice-disneys-alice-in-wonderland-1694440166.jpg");
+    background-image: url("alice_img/firstbeck.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -25,6 +25,13 @@ body{
     height: 8vh;
     width: 2vw;
     border: none;
+}
+#button{
+    height: 4vh;
+    width: 4vw;
+    color: rgb(127, 125, 125);
+    background-color: black;
+    border-color: rgb(127, 125, 125);
 }
 #next{
     background-color: rgba(127, 255, 212, 0);
@@ -70,12 +77,12 @@ body{
     background-color: rgba(225, 212, 38, 0);
 }
 .imga{
+    position: absolute;
     height: 100px;
     width: 60px;
-    display: flex;
+    display: flexbox;
     flex-direction: column;
-    margin-top: 10px;
-    bottom: 10px;
+    margin-top: 60px;
 }
 #code{
     top: 440px;
@@ -87,7 +94,7 @@ body{
     background-color: rgba(225, 212, 38, 0);
 }
 .diva{
-    background-image: url("https://i.pinimg.com/736x/c9/90/77/c99077401391d1add1db8981766c736f.jpg");
+    background-image: url("alice_img/codebeck.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     border: 5px solid black;
