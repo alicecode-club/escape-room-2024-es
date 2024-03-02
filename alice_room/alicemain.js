@@ -23,6 +23,7 @@ function key(){
     newHeading.textContent ="what is the code?";
     newHeading.setAttribute("id", "h2");
     var newInput = document.createElement('input');
+    newInput.setAttribute("id", "input");
     newdiv.appendChild(newHeading);
     newdiv.appendChild(newInput);
     document.body.appendChild(newdiv);
