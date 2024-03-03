@@ -26,6 +26,15 @@ body{
     width: 2vw;
     border: none;
 }
+#music{
+    background-image: url("alice_img/music.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 8vh;
+    width: 3.5vw;
+    left: 5%;
+    position: absolute;
+}
 #button{
     height: 4vh;
     width: 4vw;
