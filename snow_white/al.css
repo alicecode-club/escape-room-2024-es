@@ -31,8 +31,6 @@
 
 button {
     position: absolute;
-    top: 70%;
-    left: 30%;
     transform: translate(-50%, -50%);
     padding: 15px 25px;
     color: inherit;
@@ -43,6 +41,18 @@ button {
     height: 100px;
 }
 
+#crystalButton1{
+    top: 48%;
+    left: 21%;
+}
+#crystalButton2{
+    top: 51%;
+    left: 87%;
+}
+#crystalButton3{
+    top: 95%;
+    left: 93%;
+}
 
 
 /* Media Queries for Responsiveness */
