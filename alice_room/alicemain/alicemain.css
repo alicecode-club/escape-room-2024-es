@@ -1,5 +1,5 @@
 body{
-    background-image: url("alice_img/firstbeck.jpg");
+    background-image: url("../alice_img/firstbeck.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -27,7 +27,7 @@ body{
     border: none;
 }
 #music{
-    background-image: url("alice_img/music.jpg");
+    background-image: url("../alice_img/music.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 8vh;
@@ -103,7 +103,7 @@ body{
     background-color: rgba(225, 212, 38, 0);
 }
 .diva{
-    background-image: url("alice_img/codebeck.jpg");
+    background-image: url("../alice_img/codebeck.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     border: 5px solid black;

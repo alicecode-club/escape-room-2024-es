@@ -1,9 +1,9 @@
-var audioa = new Audio('sounda.mpeg');
+var audioa = new Audio('../sounda.mpeg');
 function audio(){
     if (audioa && !audioa.paused) {
         audioa.pause();
     } else {
-        audioa = new Audio('sounda.mpeg');
+        audioa = new Audio('../sounda.mpeg');
         audioa.play();
     }
 }
@@ -16,7 +16,7 @@ function inpoo(){
     div.style.display = "block";
 }
 function tunnel() {
-    var a=document.body.style.backgroundImage = "url('alice_img/tunnel.png')";
+    var a=document.body.style.backgroundImage = "url('../alice_img/tunnel.png')";
     a.setAttribute("class", "back");
 }
 function card(imgSrc) {
@@ -44,4 +44,13 @@ function key(){
     newdiv.appendChild(newbr2);
     newdiv.appendChild(newButton);
     document.body.appendChild(newdiv);
+    function check(){
+        var inp = document.getElementById("input").value;
+        if (inp=="1091" || inp=="1910" || inp=="9110" || inp=="1019" || inp=="1109" || inp=="9101") {
+          window.alert("ff");
+      }else{
+          window.alert("try again");
+      }
+    }
+    newButton.addEventListener('click', check);
 }
