@@ -105,3 +105,10 @@ function playVideo() {
     videoFrame.src += "?autoplay=1"; // נוסיף את פרמטר האוטומטי פליי
     videoContainer.style.display = 'block';
 }
+function activateSecondButton() {
+    alert("Hello and welcome to the evil queen's basement. Now we will give you a clue: your clue is an object because of which all the potions and spells exist. I hope you make it or something bad happens...");
+    document.getElementById('secondButton').style.display = 'inline-block';
+
+    // Show the third button
+    document.getElementById('b_3').style.display = 'inline-block';
+}
