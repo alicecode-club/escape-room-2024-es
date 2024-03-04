@@ -66,10 +66,11 @@ function activateSecondButton() {
 function showQuestion() {
     alert('Warm congratulations, you managed to pass the magic mirror stage. Now I will give you a hint to the first ingredient in the potion: 1) It is in a magic cave 2) Its color is blue 3) Its environment is Saudi Arabia!');
     
-    var answer = prompt('So where are we going to (which fairy tale is this)?');
+    var answer = prompt('So where are we going to (which legan is this)?');
 
     if (answer && answer.toLowerCase() === 'aladdin') {
         alert('Correct! Aladdin is the answer. You should remember the number 8');
+        alert("wait!!!!! before we go to aladdin's cavie you have anther clue in this room find it")
     } else {
         lifes -= 1;
         alert(`Wrong answer. You have another ${lifes} lives left.`);
