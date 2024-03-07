@@ -1,5 +1,5 @@
 body{
-    background-image: url("../alice_img/sbeck.jpg");
+    background-image: url("../alice_img/wonderland.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -35,4 +35,9 @@ body{
     width: 3.5vw;
     left: 5%;
     position: absolute;
+}
+#somewhere{
+    background-color: rgba(225, 212, 38, 0.418);
+    height: 8vh;
+    width: 3.5vw;
 }
