@@ -94,13 +94,13 @@ body{
     margin-top: 60px;
 }
 #code{
-    top: 440px;
-    left: 830px;
+    top: 75%;
+    left: 64%;
     position: absolute;
     width: 140px;
     height: 50px;
     border: none;
-    background-color: rgba(225, 212, 38, 0);
+    background-color: rgba(156, 147, 17, 0);
 }
 .diva{
     background-image: url("../alice_img/codebeck.jpg");
