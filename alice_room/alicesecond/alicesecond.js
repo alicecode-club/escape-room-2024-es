@@ -15,3 +15,6 @@ function inpoo(){
     var div = document.getElementById("info");
     div.style.display = "block";
 }
+function hole(){
+    window.alert("already been there...");
+}

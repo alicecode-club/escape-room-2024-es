@@ -1,3 +1,8 @@
+body{
+    background-image: url("../alice_img/wonderland.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 #button1{
     background-color: rgba(225, 212, 38, 0.418);
     height: 8vh;
@@ -30,4 +35,22 @@
     width: 3.5vw;
     left: 5%;
     position: absolute;
+}
+#somewhere{
+    background-color: rgba(153, 145, 31, 0);
+    height: 8vh;
+    width: 9vw;
+    position: absolute;
+    top: 85%;
+    left: 28%;
+    border: none;
+}
+#hole{
+    background-color: rgba(153, 145, 31, 0);
+    height: 8vh;
+    width: 9vw;
+    position: absolute;
+    top: 72%;
+    left: 28%;
+    border: none;
 }
