@@ -16,5 +16,7 @@ function facePopup(){
     if (answer && answer.toLowerCase() === 'shrek') {
         alert('Correct! shrek is the answer. You should remember the number 3');
     } else {
-        alert("Wrong answer. try agian");}
+        alert("Wrong answer. try agian");
+        facePopup(); 
+    }
 }
