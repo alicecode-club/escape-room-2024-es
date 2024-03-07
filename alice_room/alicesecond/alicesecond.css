@@ -1,3 +1,8 @@
+body{
+    background-image: url("../alice_img/sbeck.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 #button1{
     background-color: rgba(225, 212, 38, 0.418);
     height: 8vh;

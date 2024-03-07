@@ -47,7 +47,7 @@ function key(){
     function check(){
         var inp = document.getElementById("input").value;
         if (inp=="1091" || inp=="1910" || inp=="9110" || inp=="1019" || inp=="1109" || inp=="9101") {
-          window.alert("ff");
+          window.location.href = '../alicesecond/alicesecond.html';;
       }else{
           window.alert("try again");
       }
