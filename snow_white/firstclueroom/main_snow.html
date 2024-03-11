@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/snow_white/firstroom/snow.css">
+    <style>
+        #img-container {
+            position: relative;
+        }
+
+        #img1 {
+            width: 100vw; /* 100% מרוחב המסך */
+            height: 100vh; /* 100% גובה המסך */
+        }
+
+        #timerText {
+            display: inline-block;
+            font-size: 32px; /* גודל הטקסט של הטיימר */
+        }
+        
+        #b_3{
+            top: 47%;
+            left: 11%;
+            color: aliceblue;
+        }
+        #b_4{
+            top: 77%;
+            left: 91%;
+            color: aliceblue;
+        }
+        #b_5{
+            top: 49%;
+            left: 50%;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <div id="img-container">
+        <img id="img1" src="../imgs/H.png" alt="Image">
+        <button onclick="handleButtonClick('firstButton')"></button>
+        <button id="secondButton" onclick="handleButtonClick('secondButton')" style="display:none;"></button>
+        <button id="timer" onclick="startTimer('The Timer')"> <span id="timerText"></span></button>
+        <button id="b_3" onclick="handleButtonClick('thirdButton')" style="display:none;"></button>
+        <button id="b_4" onclick="handleButtonClick('fourthButton')" style="display: none;"></button>
+        <button id="b_5" onclick="handleButtonClick('fiveButton')"></button>
+
+    </div>
+    <script src="/snow_white/firstroom/snow.js"></script>
+</body>
+</html>

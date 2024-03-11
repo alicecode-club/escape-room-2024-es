@@ -1,0 +1,120 @@
+body{
+    background-image: url("../alice_img/firstbeck.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#button1{
+    background-color: rgba(225, 212, 38, 0.418);
+    height: 8vh;
+    width: 3.5vw;
+    position: absolute;
+}
+#info{
+    margin: 0 auto;
+    background-color: rgba(225, 212, 38, 0.418);
+    border: 5px solid black;
+    height: 550px;
+    width: 430px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: "Satisfy", cursive;
+    font-style: normal;
+}
+#button2{
+    background-color: rgba(225, 212, 38, 0);
+    height: 8vh;
+    width: 2vw;
+    border: none;
+}
+#music{
+    background-image: url("../alice_img/music.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 8vh;
+    width: 3.5vw;
+    left: 5%;
+    position: absolute;
+}
+#button{
+    height: 4vh;
+    width: 4vw;
+    color: rgb(127, 125, 125);
+    background-color: black;
+    border-color: rgb(127, 125, 125);
+}
+#next{
+    background-color: rgba(127, 255, 212, 0);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 200px;
+    width: 200px;
+    border: none;
+}
+.back{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: center;
+}
+#riddlea{
+    height: 60px;
+    width: 40px;
+    position: absolute;
+    top: 15%;
+    left: 38%;
+    border: none;background-color: rgba(225, 212, 38, 0);
+}
+#riddleb{
+    height: 40px;
+    width: 40px;
+    top: 35%;
+    left: 77%;
+    position: absolute;
+    border: none;
+    background-color: rgba(225, 212, 38, 0);
+}
+#riddlec{
+    height: 70px;
+    width: 70px;
+    top: 57%;
+    left: 88%;
+    position: absolute;
+    border: none;
+    background-color: rgba(193, 183, 38, 0);
+}
+.imga{
+    position: absolute;
+    height: 100px;
+    width: 60px;
+    display: flexbox;
+    flex-direction: column;
+    margin-top: 60px;
+}
+#code{
+    top: 75%;
+    left: 64%;
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    border: none;
+    background-color: rgba(156, 147, 17, 0);
+}
+.diva{
+    background-image: url("../alice_img/codebeck.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5px solid black;
+    height: 250px;
+    width: 400px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    margin-top: 100px;
+    margin-left: 425px;
+    position: absolute;
+    text-align: center;
+    color: rgb(127, 125, 125);
+}
