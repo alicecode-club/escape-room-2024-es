@@ -4,9 +4,16 @@ function lampPopup(){
     alert("Just before you go searching you should know that the ingredient you are collecting is glowing and blue ")
 }
 
+var crystalCollcted=false
 function crystalPopup(){
     alert("You picked up the first ingredient, good job")
     alert("For the clue to the next location of the ingredients that you need to find, you need to find the gold face 💛")
+    crystalCollcted=true
+    console.log(crystalCollcted)
+}
+
+function itemsup(){
+    window.location.href='../items/items.html'
 }
 
 function facePopup(){
