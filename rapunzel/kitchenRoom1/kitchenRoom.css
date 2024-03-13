@@ -1,0 +1,10 @@
+body{
+    text-align: center;
+    background: url("../images/kitchenimage.webp")
+    
+}
+
+html{
+	background-image: url("../images/kitchenimage.webp");
+	background-size:100vw 100vh;
+}
