@@ -50,19 +50,24 @@ button {
 
 }
 
+#items{
+    top:7%;
+    left: 95%;
+}
+
 
 
 /* Media Queries for Responsiveness */
-/*@media screen and (max-width: 768px) {
-    button, #lampButton {
+@media screen and (max-width: 768px) {
+    button,  #lampButton,#crystalButton3,#crystalButton2,#crystalButton1 {
         font-size: 14px;
         width: 150px;
         height: 75px;
     }
 }
 
-/*@media screen and (max-width: 480px) {
-    button, #lampButton{
+@media screen and (max-width: 480px) {
+    button, #lampButton,#crystalButton3,#crystalButton2,#crystalButton1{
         font-size: 12px;
         width: 120px;
         height: 60px;
