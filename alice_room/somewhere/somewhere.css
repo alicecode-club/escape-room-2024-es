@@ -2,4 +2,32 @@ body{
     background-image: url("../alice_img/somewhere.webp");
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
+}
+#riddle{
+    margin: 0 auto;
+    background-color: rgba(86, 182, 237, 0.447);
+    border: 5px solid black;
+    height: 520px;
+    width: 430px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: "Satisfy", cursive;
+    font-style: normal;
+}
+#incorrect{
+    display: none;
+}
+#correct{
+    display: none;
+}
+button{
+    background-color:rgba(251, 251, 251, 0.61);
+}
+#hat{
+    height: 300px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-color: rgba(210, 26, 26, 0.532);
+    border-color: black;
 }
