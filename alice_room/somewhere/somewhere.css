@@ -24,3 +24,10 @@ body{
 button{
     background-color:rgba(251, 251, 251, 0.61);
 }
+#hat{
+    height: 300px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-color: rgba(210, 26, 26, 0.532);
+    border-color: black;
+}
