@@ -1,3 +1,4 @@
+var lifes = 3;
 function lampPopup(){
     alert("hello and welcome to aladdin cave")
     alert("Here you will collect the next ingredient for the evil queen's potion ")
@@ -23,7 +24,12 @@ function facePopup(){
     if (answer && answer.toLowerCase() === 'shrek') {
         alert('Correct! shrek is the answer. You should remember the number 3');
     } else {
-        alert("Wrong answer. try agian");
-        facePopup(); 
+        lifes -= 1;
+        alert(`Wrong answer. You have another ${lifes} lives left.`);
+
+        if (lifes === 0) {
+            alert("You failed the game 😭");
+        } else {
+            facePopup();
     }
-}
+}}
