@@ -15,12 +15,6 @@ function inpoo(){
     var div = document.getElementById("info");
     div.style.display = "block";
 }
-function hole(){
-    window.alert("already been there...");
-}
-function castle(){
-    window.location.href = '../castle/castle.html';
-}
 function hat(){
     var div = document.getElementById("hata");
     div.style.display = "block";
