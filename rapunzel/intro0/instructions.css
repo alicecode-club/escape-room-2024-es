@@ -78,7 +78,7 @@ h1{
     -webkit-text-stroke-color: black;
 
     position: absolute;
-    top: 35%;
+    top: 36%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -96,6 +96,10 @@ button{
     border-radius:10px;
     border-color: #8757be;
     
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 button:hover{
