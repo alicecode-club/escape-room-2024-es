@@ -15,10 +15,29 @@ body{
     font-family: "Satisfy", cursive;
     font-style: normal;
 }
+#riddleb{
+    margin: 0 auto;
+    background-color: rgba(86, 182, 237, 0.447);
+    border: 5px solid black;
+    height: 550px;
+    width: 430px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: "Satisfy", cursive;
+    font-style: normal;
+    display: none;
+
+}
 #incorrect{
     display: none;
 }
+#incorrectb{
+    display: none;
+}
 #correct{
+    display: none;
+}
+#correctb{
     display: none;
 }
 button{
@@ -30,4 +49,5 @@ button{
     background-repeat: no-repeat;
     background-color: rgba(210, 26, 26, 0.532);
     border-color: black;
+    display: none;
 }
