@@ -129,6 +129,7 @@ function showQuestion2() {
 
     if (answer2 && answer2.toLowerCase() === '8514') {
         alert('GOOD BYYY YOU DID IT!!!!!!!!,DONT FORGET THAT THE EVIL QWEEN IS EVIL SO YOU HAVE TO MAKE IT BYY👋👋');
+        window.location.href="../aladdinroom/al.html"
 
 
     } else {
