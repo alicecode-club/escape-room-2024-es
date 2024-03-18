@@ -1,10 +1,29 @@
 body{
     text-align: center;
-    background: url("../images/bedroomImage.webp")
+    background: url("../images/bedroomImage.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
     
 }
 
-html{
-	background-image: url("../images/bedroomImage.webp");
-	background-size:100vw 100vh;
+#rapunzelAi{
+    height:400px;
+    justify-content: right;
+    position:fixed;
+    right:0px;
+    bottom: 0px 
+}
+
+.hiddenButtons{
+    transform: translate(-50%, -50%);
+    color: inherit;
+    background-color: transparent;
+    border-color: transparent;
+    position:fixed;
+    position:relative;
+    margin-left: -4.8%;
+    margin-top: 18.7%;
+    height: 20px;
 }
