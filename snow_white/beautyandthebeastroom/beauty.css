@@ -84,4 +84,5 @@ iframe {
     font-size: 160px;
     top: 50%;
     left: 48%;
+    display: none;
 }

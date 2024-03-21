@@ -5,6 +5,17 @@ var buttonClicked = false; // משתנה שמציין האם הכפתור נלח
 
 function disableAllButtons() {
     buttons.forEach(function(button) {
+        if (!button.disabled) { // בדיקה האם הכפתור כבר לא מופעל
+            button.disabled = true;
+        }
+    });
+}
+
+var buttons = document.querySelectorAll('button');
+var buttonClicked = false;
+
+function disableAllButtons() {
+    buttons.forEach(function(button) {
         button.disabled = true;
     });
 }
@@ -26,8 +37,18 @@ function third() {
 
 function fourth() {
     alert("Excellent, the Evil Queen will be happy to know that you almost managed to get all the ingredients for the potion");
+    document.getElementById('first1').style.display = 'none'; // סתירת הכפתור הראשון
     disableAllButtons();
 }
+
+buttons.forEach(function(button) {
+    button.addEventListener('click', function() {
+        if (!buttonClicked) {
+            buttonClicked = true;
+            disableAllButtons();
+        }
+    });
+});
 
 function first2() {
     alert('Hi there, again this time I want to illuminate the atmosphere for you ');
@@ -68,12 +89,3 @@ function second() {
         }
     }
 }
-
-buttons.forEach(function(button) {
-    button.addEventListener('click', function() {
-        if (!buttonClicked) { // בדיקה האם הכפתור לא נלחץ כבר
-            buttonClicked = true; // מסמן שהכפתור נלחץ
-            disableAllButtons();
-        }
-    });
-});

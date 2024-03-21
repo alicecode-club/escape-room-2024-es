@@ -128,7 +128,7 @@ function showQuestion2() {
     var answer2 = prompt('what is the password');
 
     if (answer2 && answer2.toLowerCase() === '8514') {
-        alert('GOOD BYYY YOU DID IT!!!!!!!!,DONT FORGET THAT THE EVIL QWEEN IS EVIL SO YOU HAVE TO MAKE IT BYY👋👋');
+        alert('GOOD BYYY YOU DID IT!!!!!!!!,DONT FORGET THAT THE EVIL QUEEN IS EVIL SO YOU HAVE TO MAKE IT BYY👋👋');
 
 
     } else {
