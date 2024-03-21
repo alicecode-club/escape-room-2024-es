@@ -8,4 +8,15 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
- } 
+} 
+#Hook{
+    margin: 0 auto;
+    background-color: rgba(86, 182, 237, 0.447);
+    border: 5px solid black;
+    height: 520px;
+    width: 430px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: "Satisfy", cursive;
+    font-style: normal;
+}
