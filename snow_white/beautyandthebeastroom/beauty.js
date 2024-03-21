@@ -59,8 +59,9 @@ function first2() {
     var answer = prompt('Which actress played Belle in the movie?');
 
     if (answer && answer.toLowerCase() === 'emma watson') {
-        alert('Correct! Emma Watson is the answer');
+        alert('Correct! Emma Watson is the answer you get the third ingredient👏👏');
         document.getElementById('fourth4').style.display = 'none';
+        window.location.href="../peterRoom/peter.html"
     } else {
         lifes -= 1;
         alert(`Wrong answer. You have another ${lifes} lives left.`);

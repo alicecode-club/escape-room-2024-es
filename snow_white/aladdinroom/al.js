@@ -25,10 +25,12 @@ function itemsup(){
 
 function facePopup(){
     alert("You found me!!")
-    alert("The next potion ingredient is in a muddy place with green creatures")
+    alert("The next potion ingredient is in this legan- Who was taken to the castle because her father brought her a rose")
     var answer = prompt('So where are we going to (which legan is this)?');
-    if (answer && answer.toLowerCase() === 'shrek') {
-        alert('Correct! shrek is the answer. You need to go to shrek swamp');
+    if (answer && answer.toLowerCase() === 'beauty and the beast') {
+        alert('Correct! beauty and the beast is the answer. You need to go to beauty and the beast castle');
+        window.location.href="../beautyandthebeastroom/beauty.html"
+        
     } else {
         lifes -= 1;
         alert(`Wrong answer. You have another ${lifes} lives left.`);
