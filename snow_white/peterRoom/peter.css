@@ -1,3 +1,23 @@
+#Hook{
+    margin: 0 auto;
+    background-color: rgba(23, 255, 158, 0.447);
+    border: 5px solid black;
+    border-style: double ;
+    height: 520px;
+    width: 430px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: "Loved by the King", cursive;
+    font-weight: 500;
+    font-style: normal;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 15px 25px;
+    cursor: pointer;
+}
+
 #img4{
     position: relative;
     display: inline-block;
@@ -9,14 +29,64 @@
     align-items: center;
     height: 100vh;
 } 
-#Hook{
-    margin: 0 auto;
-    background-color: rgba(86, 182, 237, 0.447);
-    border: 5px solid black;
-    height: 520px;
-    width: 430px;
-    padding-left: 15px;
-    padding-right: 15px;
-    font-family: "Satisfy", cursive;
-    font-style: normal;
+
+#conS{
+    background-color: rgb(25, 237, 85);
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    border-style: none ;
+    font-size: 20px; 
+}
+
+#conS:hover{
+    background-color: rgb(180, 255, 201);
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    border-style: none ;
+    font-size: 20px; 
+}
+
+#Tink{
+    top: 50%;
+    left: 50%;
+    padding: 1px 150px;
+}
+
+.buttonS{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 15px 25px;
+    color: inherit;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    height: 100px;
+}
+
+#items{
+    top:6%;
+    left: 95%;
+}
+
+#image-peter {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#image-peter {
+    position: relative;
+    display: inline-block;
+}
+
+#image-peter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Optional: Set the container height to the full viewport height */
+}
+
+#hookShip{
+    top:75%;
+    left: 48%;
 }

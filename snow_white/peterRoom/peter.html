@@ -3,32 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Engagement&family=Kanit&family=Loved+by+the+King&display=swap" rel="stylesheet">
+    <!-- links -->
+    <link href="../items/items.html">
     <link rel="stylesheet" href="peter.css">
     <title>peter pen</title>
 </head>
 <body>
+    <!-- image -->
+    <div id="image-peter">
+        <img id="img4" src="../imgs/peter pan.jpg" alt="Image" width="100%" height="100%">
+        <button id="items" onclick="itemsup()" class="buttonS"><img id="img2" src="../imgs/Casserole.png" alt="Image"  width="72.28" height="70"> </button>
+        <button id="hookShip" onclick="HookPoPup()" class="buttonS" style="display:none;"> </button>
+    </div>
+    <!-- A question about Hook -->
     <div id="Hook">
         <br>
-        <h2>Welcome To neverland!</h2><br>
-        <h3>hello I am Tinkerbell and welcome to never land, in her you will collect the one of ingredent for the evil queen potion! for star your journey You have to answer the question:<br> What is the name of Captain Hook's ship?
-
-        </h3><br>
-        
+        <h2>Welcome To neverland!</h2>
+        <h3>hello I am Tinkerbell and welcome to never land, in her you will collect the one of ingredent for the evil queen potion! 
+            for star your journey You have to answer the question:<br> What is the name of Captain Hook's ship?</h3><br>
         <input id="jolly_roger">
-        <button id="send" onclick="answear()">send</button>
+        <button id="send" onclick="jolly()">send</button>
         <div id="incorrect">
-            <h3>Unfortunately, your answear is incorrect.
-                You can try again, but you'll have only one more shot!</h3>
-            <button id="answer" onclick="ans()">second try?</button>
+            <h3>Unfortunately, your answear is incorrect.</h3>
+            <button id="conS" onclick="sec()">second try</button>
         </div>
         <div id="correct">
-            <h3>Your answear is correct!
+            <h3>Your answear is correct!</h3>
+                <button id="conS" onclick="con()">continue</button>
         </div>
+        <img src="https://i.pinimg.com/originals/9d/40/17/9d401719584b69bf786aaf1410c8ca2e.png" alt="Tinkerbell" width="90" height="90" id="Tink">  
     </div>
-    <img id="img4" src="../imgs/peter pan.jpg" alt="Image" width="100%" height="100%">
-
-    
+      
 </body>
+<script src="peter.js"></script>
+<script src="../items/items.js"></script>
 <style> 
     #img4{
        max-width: 100%;
