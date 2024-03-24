@@ -2,6 +2,7 @@ var lifes = 3;
 localStorage.setItem("aladdinRoom", true);
 function lampPopup(){
     localStorage.setItem("crystalCollcted", false);
+    localStorage.setItem("aladdinLamp", true);
     alert("hello and welcome to aladdin cave")
     alert("Here you will collect the next ingredient for the evil queen's potion ")
     alert("Just before you go searching you should know that the ingredient you are collecting is glowing and blue ")
@@ -12,6 +13,7 @@ function lampPopup(){
 
 console.log(localStorage.getItem("crystalCollcted"))
 function crystalPopup(){
+    localStorage.setItem("aladdinCrystal", true);
     alert("You picked up the first ingredient, good job")
     alert("For the clue to the next location of the ingredients that you need to find, you need to find the gold face 💛")
     localStorage.setItem("crystalCollcted", true);
@@ -47,4 +49,13 @@ function disableAllButtons() {
     buttons.forEach(function(button) {
         button.disabled = true;
     });
+}
+
+if(localStorage.getItem("aladdinLamp")==="true"){
+    document.getElementById('crystalButton1').style.display = 'inline-block';
+    document.getElementById('crystalButton2').style.display = 'inline-block';
+    document.getElementById('crystalButton3').style.display = 'inline-block';
+}
+if(localStorage.getItem("aladdinCrystal")==="true"){
+    document.getElementById('faceButton').style.display = 'inline-block';
 }
